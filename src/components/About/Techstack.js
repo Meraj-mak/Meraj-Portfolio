@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import { SiCsharp } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiAmazonaws } from "react-icons/si";
