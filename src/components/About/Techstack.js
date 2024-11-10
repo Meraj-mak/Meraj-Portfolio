@@ -8,7 +8,6 @@ import { SiOracle } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiPython,
   DiGit,
   DiJava,
