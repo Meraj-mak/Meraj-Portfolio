@@ -61,18 +61,7 @@ function Projects() {
               title="DATA ENGINEERING "
               subtitle="YouTube Data Analysis"
               description="Analyzed YouTube data using data engineering principles, focusing on data flow management and big data handling. And Cleaning the Data."
-            />
-          </Col>
-
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              //imgPath={emotion}
-              isBlog={false}
-              title="ARTIFICAL INTELLIGENCE"
-              subtitle="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              demoLink="https://github.com/Meraj-mak/YouTube-Data-Analysis"
             />
           </Col>
         </Row>
