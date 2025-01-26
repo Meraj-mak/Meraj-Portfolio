@@ -58,10 +58,31 @@ function Projects() {
             <ProjectCard
              //imgPath={leaf}
               isBlog={false}
+              title="Play-Snake "
+              subtitle="Train-an-AI-to-Play-Snake"
+              description="Learn how to train an AI to play the classic Snake game using Reinforcement Learning. This project is built from scratch with Python, leveraging PyTorch for machine learning and Pygame for game development."
+              demoLink="https://github.com/Meraj-mak/Train-an-AI-to-Play-Snake"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+             //imgPath={leaf}
+              isBlog={false}
               title="DATA ENGINEERING "
               subtitle="YouTube Data Analysis"
               description="Analyzed YouTube data using data engineering principles, focusing on data flow management and big data handling. And Cleaning the Data."
               demoLink="https://github.com/Meraj-mak/YouTube-Data-Analysis"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+             //imgPath={leaf}
+              isBlog={false}
+              title="EasyApprovalSystem "
+              subtitle="EasyApprovalSystem"
+              description="Users and superiors log in via Google, receiving confirmation emails for each login and logout. Requests are created with details like title, urgency, and superior’s email, triggering notifications for both parties, while approvals or rejections also prompt status updates via email."
+              demoLink="https://github.com/Meraj-mak/EasyApprovalSystem"
             />
           </Col>
         </Row>
